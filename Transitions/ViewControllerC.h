@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  ViewControllerC.h
 //  Transitions
 //
 //  Created by Max Konovalov on 4.01.14.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewControllerC : UIViewController
 
 @end

@@ -14,13 +14,18 @@
 		5001802418785C4100AEC80D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5001802318785C4100AEC80D /* main.m */; };
 		5001802818785C4100AEC80D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5001802718785C4100AEC80D /* AppDelegate.m */; };
 		5001802B18785C4100AEC80D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5001802918785C4100AEC80D /* Main.storyboard */; };
-		5001802E18785C4100AEC80D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5001802D18785C4100AEC80D /* ViewController.m */; };
 		5001803018785C4100AEC80D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5001802F18785C4100AEC80D /* Images.xcassets */; };
 		5001803718785C4100AEC80D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5001803618785C4100AEC80D /* XCTest.framework */; };
 		5001803818785C4100AEC80D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5001801718785C4100AEC80D /* Foundation.framework */; };
 		5001803918785C4100AEC80D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5001801B18785C4100AEC80D /* UIKit.framework */; };
 		5001804118785C4100AEC80D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5001803F18785C4100AEC80D /* InfoPlist.strings */; };
 		5001804318785C4100AEC80D /* TransitionsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5001804218785C4100AEC80D /* TransitionsTests.m */; };
+		5001804E18785E9400AEC80D /* NavigationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5001804D18785E9400AEC80D /* NavigationManager.m */; };
+		5001805118785F1700AEC80D /* ViewControllerA.m in Sources */ = {isa = PBXBuildFile; fileRef = 5001805018785F1700AEC80D /* ViewControllerA.m */; };
+		5001805418785F1F00AEC80D /* ViewControllerB.m in Sources */ = {isa = PBXBuildFile; fileRef = 5001805318785F1F00AEC80D /* ViewControllerB.m */; };
+		5001805718785F2600AEC80D /* ViewControllerC.m in Sources */ = {isa = PBXBuildFile; fileRef = 5001805618785F2600AEC80D /* ViewControllerC.m */; };
+		5001805B1878601C00AEC80D /* ABTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 5001805A1878601C00AEC80D /* ABTransition.m */; };
+		5001805F1878609800AEC80D /* BATransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 5001805E1878609800AEC80D /* BATransition.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +50,24 @@
 		5001802618785C4100AEC80D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5001802718785C4100AEC80D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		5001802A18785C4100AEC80D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		5001802C18785C4100AEC80D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		5001802D18785C4100AEC80D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		5001802F18785C4100AEC80D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		5001803518785C4100AEC80D /* TransitionsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TransitionsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5001803618785C4100AEC80D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		5001803E18785C4100AEC80D /* TransitionsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TransitionsTests-Info.plist"; sourceTree = "<group>"; };
 		5001804018785C4100AEC80D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5001804218785C4100AEC80D /* TransitionsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TransitionsTests.m; sourceTree = "<group>"; };
+		5001804C18785E9400AEC80D /* NavigationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationManager.h; sourceTree = "<group>"; };
+		5001804D18785E9400AEC80D /* NavigationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationManager.m; sourceTree = "<group>"; };
+		5001804F18785F1700AEC80D /* ViewControllerA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerA.h; sourceTree = "<group>"; };
+		5001805018785F1700AEC80D /* ViewControllerA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerA.m; sourceTree = "<group>"; };
+		5001805218785F1F00AEC80D /* ViewControllerB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerB.h; sourceTree = "<group>"; };
+		5001805318785F1F00AEC80D /* ViewControllerB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerB.m; sourceTree = "<group>"; };
+		5001805518785F2600AEC80D /* ViewControllerC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerC.h; sourceTree = "<group>"; };
+		5001805618785F2600AEC80D /* ViewControllerC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerC.m; sourceTree = "<group>"; };
+		500180591878601C00AEC80D /* ABTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABTransition.h; sourceTree = "<group>"; };
+		5001805A1878601C00AEC80D /* ABTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABTransition.m; sourceTree = "<group>"; };
+		5001805D1878609800AEC80D /* BATransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BATransition.h; sourceTree = "<group>"; };
+		5001805E1878609800AEC80D /* BATransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BATransition.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,8 +130,10 @@
 				5001802618785C4100AEC80D /* AppDelegate.h */,
 				5001802718785C4100AEC80D /* AppDelegate.m */,
 				5001802918785C4100AEC80D /* Main.storyboard */,
-				5001802C18785C4100AEC80D /* ViewController.h */,
-				5001802D18785C4100AEC80D /* ViewController.m */,
+				5001804C18785E9400AEC80D /* NavigationManager.h */,
+				5001804D18785E9400AEC80D /* NavigationManager.m */,
+				5001805C1878605400AEC80D /* Transitions */,
+				5001805818785F2F00AEC80D /* View Controllers */,
 				5001802F18785C4100AEC80D /* Images.xcassets */,
 				5001801E18785C4100AEC80D /* Supporting Files */,
 			);
@@ -150,6 +167,30 @@
 				5001803F18785C4100AEC80D /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5001805818785F2F00AEC80D /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				5001804F18785F1700AEC80D /* ViewControllerA.h */,
+				5001805018785F1700AEC80D /* ViewControllerA.m */,
+				5001805218785F1F00AEC80D /* ViewControllerB.h */,
+				5001805318785F1F00AEC80D /* ViewControllerB.m */,
+				5001805518785F2600AEC80D /* ViewControllerC.h */,
+				5001805618785F2600AEC80D /* ViewControllerC.m */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		5001805C1878605400AEC80D /* Transitions */ = {
+			isa = PBXGroup;
+			children = (
+				500180591878601C00AEC80D /* ABTransition.h */,
+				5001805A1878601C00AEC80D /* ABTransition.m */,
+				5001805D1878609800AEC80D /* BATransition.h */,
+				5001805E1878609800AEC80D /* BATransition.m */,
+			);
+			name = Transitions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -249,9 +290,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5001802E18785C4100AEC80D /* ViewController.m in Sources */,
+				5001805B1878601C00AEC80D /* ABTransition.m in Sources */,
+				5001805118785F1700AEC80D /* ViewControllerA.m in Sources */,
 				5001802818785C4100AEC80D /* AppDelegate.m in Sources */,
+				5001805718785F2600AEC80D /* ViewControllerC.m in Sources */,
+				5001804E18785E9400AEC80D /* NavigationManager.m in Sources */,
 				5001802418785C4100AEC80D /* main.m in Sources */,
+				5001805418785F1F00AEC80D /* ViewControllerB.m in Sources */,
+				5001805F1878609800AEC80D /* BATransition.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
